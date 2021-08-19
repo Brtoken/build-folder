@@ -306,13 +306,19 @@ footer .nav-link:hover {
 @media only screen and (max-width: 768px) {
   .navbar-toggler {
     line-height: inherit !important;
-}
+  }
+  .hms-team-jum h5 {
+    font-size: 2.5rem !important;
+  }
+  .hms-team-jum p {
+    font-size: 1.4rem !important;
+  }
   header .carousel-caption h3 {
     font-size: 2.5rem;
   }
-  .head-nav .btn-stakapp{
+  .head-nav .btn-stakapp {
     margin: 2% 0 0 0 !important;
-}
+  }
   .sec-one-desc h5 {
     font-size: 2rem;
   }
@@ -333,10 +339,10 @@ footer .nav-link:hover {
   }
 }
 @media only screen and (max-width: 458px) {
-  .sec-one-desc{
+  .sec-one-desc {
     margin-bottom: 5%;
   }
-  .sec-two .col-lg-4{
+  .sec-two .col-lg-4 {
     margin-bottom: 10%;
   }
 }
