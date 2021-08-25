@@ -304,6 +304,14 @@ footer .nav-link:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #000;
+    padding: 2% 3%;
+  }
+  .nav-brtmc {
+    margin-top: 2%;
+    width: 135px;
+  }
   .navbar-toggler {
     line-height: inherit !important;
   }
@@ -347,6 +355,9 @@ footer .nav-link:hover {
   }
 }
 @media only screen and (max-width: 425px) {
+  .brt-meta-card {
+    width: auto !important;
+  }
   header .carousel-caption {
     top: 25% !important;
   }
@@ -392,5 +403,16 @@ footer .nav-link:hover {
   .navbar-collapse {
     background-color: #000;
     padding: 2% 5% 6%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .brt-meta-card img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .brt-meta-card h6 {
+    font-size: 1rem !important;
+    font-family: "rm" !important;
   }
 }
