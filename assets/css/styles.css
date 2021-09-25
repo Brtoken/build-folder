@@ -304,6 +304,11 @@ footer .nav-link:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .sec-partners img {
+    width: 120px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+  }
   .navbar-collapse {
     background-color: #000;
     padding: 2% 3%;
@@ -353,8 +358,45 @@ footer .nav-link:hover {
   .sec-two .col-lg-4 {
     margin-bottom: 10%;
   }
+  .sec-partners .d-flex{
+    display: block !important;
+  }
+  .sec-par-col {
+    width: 50% !important;
+    margin-bottom: 3%;
+    display: inline-block !important;
+  }
+  .sec-sc-col {
+    width: 33.33% !important;
+  }
 }
 @media only screen and (max-width: 425px) {
+  .sec-partners .d-flex{
+    display: block !important;
+  }
+  .sec-par-header h5{
+    font-size: 1.7rem !important;
+  }
+  .sec-why {
+    padding: 10% 5%;
+  }
+  .sec-why video {
+    margin-bottom: 10%;
+  }
+  .sec-sc-col {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+  .sec-par-col {
+    width: 50% !important;
+    display: inline-block !important;
+  }
+  .sec-par-col img {
+    /* width: 85% !important; */
+  }
+  .sec-par-col .secp-inner {
+    margin-bottom: 15%;
+  }
   .brt-meta-card {
     width: auto !important;
   }
