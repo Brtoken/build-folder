@@ -302,8 +302,38 @@ footer .nav-link:hover {
   font-family: rm;
   margin-top: 2% !important;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 649px) {
+  .brt-meta .brt-meta-card {
+    width: 90% !important;
+  }
+  .sec-one-desc {
+    margin-bottom: 3% !important;
+  }
+  .sec-partners .d-flex {
+    display: block !important;
+  }
+  .sec-par-col {
+    width: 50% !important;
+    margin-bottom: 3%;
+    display: inline-block !important;
+  }
+  .sec-sc-col {
+    margin-bottom: 5%;
+  }
+  .sec-two .col-lg-4 {
+    margin-bottom: 5% !important;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+  .brt-meta .brt-meta-card {
+    width: 65% !important;
+  }
+  .sec-two .col-lg-4 {
+    margin-bottom: 5% !important;
+  }
+  .sec-one-desc {
+    margin-bottom: 3%;
+  }
   .sec-partners img {
     width: 120px !important;
     height: 50px !important;
@@ -358,7 +388,7 @@ footer .nav-link:hover {
   .sec-two .col-lg-4 {
     margin-bottom: 10%;
   }
-  .sec-partners .d-flex{
+  .sec-partners .d-flex {
     display: block !important;
   }
   .sec-par-col {
@@ -371,10 +401,13 @@ footer .nav-link:hover {
   }
 }
 @media only screen and (max-width: 425px) {
-  .sec-partners .d-flex{
+  .sec-partners .d-flex {
     display: block !important;
   }
-  .sec-par-header h5{
+  .sec-partners img {
+    width: 150px !important;
+  }
+  .sec-par-header h5 {
     font-size: 1.7rem !important;
   }
   .sec-why {
@@ -449,6 +482,16 @@ footer .nav-link:hover {
 }
 
 @media only screen and (max-width: 320px) {
+  .sec-partners img {
+    width: 100px !important;
+  }
+  header .carousel-caption h3 {
+    font-family: rb;
+    font-size: 2rem !important;
+  }
+  .sec-one-desc h5 {
+    font-size: 1.5rem !important;
+  }
   .brt-meta-card img {
     width: 30px !important;
     height: 30px !important;
